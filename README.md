@@ -20,5 +20,5 @@ trainingSet.add(new Sample(1,feature));
 CPegasos cp = new CPegasos(1,0.1,1000,10000);   # Note that the step will not be clipped until 10,000 samples are trained
 cp.train(trainingSet);
 
-License:
+##License:
 The EJML library is released under the Apache License 2.0 code license, which is compatible with GPLv3 license.

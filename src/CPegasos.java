@@ -61,8 +61,8 @@ public class CPegasos {
 		return weights.dot(feature)+bias;
 	}
 		
-	public void train(ArrayList<Data> trainingSet){
-		for(Data a:trainingSet){
+	public void train(ArrayList<Sample> trainingSet){
+		for(Sample a:trainingSet){
 			double prediction=predict(a.feature);
 			number++;
 			if(prediction>0){
@@ -85,9 +85,9 @@ public class CPegasos {
 		System.out.println("Training accuracy: "+getAccuracy());
 	}	
 
-	public void test(ArrayList<Data> testSet){
+	public void test(ArrayList<Sample> testSet){
 		reset();
-		for(Data a:testSet){
+		for(Sample a:testSet){
 			double prediction=predict(a.feature);
 			if(prediction>0){
 				if(a.label>0)
@@ -177,3 +177,9 @@ public class CPegasos {
 	}
 
 }
+
+
+
+
+
+

@@ -9,7 +9,7 @@ For more datails please search the paper ["Learning to Classify Gender from Four
 
 ##Usage:
 CPegasos classifer has two main functions, train and test, which need an array list of "Sample" as argument. The "Sample" 
-class simply consists of two varibles, an integer for label and a SimpleMatrix for feature vector. More details for the
+class simply consists of two varibles, an integer for label and a SimpleMatrix for feature vector. For  more details about the
 use of feature vector, please visit the website of ["Efficient Java Matrix Library" (EJML)](https://code.google.com/p/efficient-java-matrix-library/).
 ```java
 ArrayList<Sample> trainingSet = new ArrayList<Sample>();

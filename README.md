@@ -1,4 +1,4 @@
-# C_Pegasos
+# C-Pegasos
 
 C-Pegasos is an on-line linear classifier based on the Pegasos algorithm. The key modification of C-Pegasos is that when a
 training point is predicted to have the wrong label with very large margin, it may be considered unreliable and 

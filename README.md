@@ -21,4 +21,4 @@ CPegasos cp = new CPegasos(1,0.1,1000,10000);   # Note that the step will not be
 cp.train(trainingSet);
 ```
 ##License:
-The EJML library is released under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0) code license, which is compatible with GPLv3 license.
+This code is released under GPLv3 license.

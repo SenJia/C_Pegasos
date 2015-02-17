@@ -26,7 +26,7 @@ public class CPegasos {
 	private double TP=0;
 	private double TN=0;
 	
-	public CPegasos(double c_coef,double omega,String path,int featureLength,int startPoint) throws IOException{
+	public CPegasos(double c_coef,double omega,int featureLength,int startPoint) throws IOException{
 		this.c_coef=c_coef;
 		this.omega=omega;
 		this.startPoint=startPoint;

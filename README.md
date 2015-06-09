@@ -6,6 +6,7 @@ therefore the magnitude of the update associated to it will be upperbounded, in 
 soft-margin SVM.
 
 For more datails please search the paper ["Learning to Classify Gender from Four Million Images"].
+
 @article{Jia201535,
 title = "Learning to classify gender from four million images ",
 journal = "Pattern Recognition Letters ",

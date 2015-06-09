@@ -7,18 +7,25 @@ soft-margin SVM.
 
 For more datails please search the paper ["Learning to Classify Gender from Four Million Images"].
 
-@article{Jia201535, 
-title = "Learning to classify gender from four million images ", 
-journal = "Pattern Recognition Letters ",
-volume = "58", 
-number = "0",
-pages = "35 - 41", 
-year = "2015", 
-note = "", 
-issn = "0167-8655", 
-doi = "http://dx.doi.org/10.1016/j.patrec.2015.02.006", 
-url = "http://www.sciencedirect.com/science/article/pii/S0167865515000549", 
+@article{Jia201535,
 author = "Sen Jia and Nello Cristianini", 
+
+title = "Learning to classify gender from four million images ", 
+
+journal = "Pattern Recognition Letters ",
+
+volume = "58", 
+
+number = "0",
+
+pages = "35 - 41", 
+
+year = "2015", 
+
+issn = "0167-8655", 
+
+doi = "http://dx.doi.org/10.1016/j.patrec.2015.02.006", 
+
 }
 
 ##Usage:

@@ -6,7 +6,7 @@ training point is predicted to have the wrong label with very large margin, it m
 therefore the magnitude of the update associated to it will be upperbounded, in a strategy equivalent to the
 soft-margin SVM.
 
-For more datails please search the paper ["Learning to Classify Gender from Four Million Images"].
+For more datails please read my blog(https://wilddata.wordpress.com/2017/06/03/first-blog-post/).
 
 @article{Jia201535,
 author = "Sen Jia and Nello Cristianini", 

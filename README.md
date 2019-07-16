@@ -6,28 +6,30 @@ training point is predicted to have the wrong label with very large margin, it m
 therefore the magnitude of the update associated to it will be upperbounded, in a strategy equivalent to the
 soft-margin SVM.
 
-For more datails please read my [blog](https://wilddata.wordpress.com/2017/06/03/first-blog-post/).
+<!--For more datails please read my [blog](https://wilddata.wordpress.com/2017/06/03/first-blog-post/).
 
-@article{Jia201535,
-author = "Sen Jia and Nello Cristianini", 
+##### @article{Jia201535,
+##### author = "Sen Jia and Nello Cristianini", 
 
-title = "Learning to classify gender from four million images ", 
+##### title = "Learning to classify gender from four million images ", 
 
-journal = "Pattern Recognition Letters ",
+##### journal = "Pattern Recognition Letters ",
 
-volume = "58", 
+##### volume = "58", 
 
-number = "0",
+##### number = "0",
 
-pages = "35 - 41", 
+##### pages = "35 - 41", 
 
-year = "2015", 
+##### year = "2015", 
 
-issn = "0167-8655", 
+##### issn = "0167-8655", 
 
-doi = "http://dx.doi.org/10.1016/j.patrec.2015.02.006", 
+##### doi = "http://dx.doi.org/10.1016/j.patrec.2015.02.006", 
 
-}
+##### }
+
+
 
 ##Usage:
 CPegasos classifer has two main functions, train and test, which need an array list of "Sample" as argument. The "Sample" 

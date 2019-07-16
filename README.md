@@ -34,7 +34,7 @@ ISSN={2375-9259},
 month={Dec}  
 }
 
-There is an extension of this work using convolutional neural networks. Both works used a subset of LFW, 10,147 images, for model evalutaion, here is the link. If our studies are useful to your research, we would appreciate if you could cite our papers.
+There is an extension of this work using convolutional neural networks. Both works used a subset of LFW, 10,147 images, for model evalutaion, here is the [link](https://raw.githubusercontent.com/SenJia/C_Pegasos/master/LFW_sublist.txt). If our studies are useful to your research, we would appreciate if you could cite our papers.
 
 
 ##Usage:

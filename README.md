@@ -50,5 +50,5 @@ trainingSet.add(new Sample(1,feature));
 CPegasos cp = new CPegasos(1,0.1,1000,10000);   # Note that the step will not be clipped until 10,000 samples are trained
 cp.train(trainingSet);
 ```
-##License:
+## License:
 This code is released under GPLv3 license.

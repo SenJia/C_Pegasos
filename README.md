@@ -1,3 +1,5 @@
+
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 # C-Pegasos
 
@@ -6,29 +8,33 @@ training point is predicted to have the wrong label with very large margin, it m
 therefore the magnitude of the update associated to it will be upperbounded, in a strategy equivalent to the
 soft-margin SVM.
 
-<!--For more datails please read my [blog](https://wilddata.wordpress.com/2017/06/03/first-blog-post/).
+<!--For more datails please read my [blog](https://wilddata.wordpress.com/2017/06/03/first-blog-post/).--->
 
-##### @article{Jia201535,
-##### author = "Sen Jia and Nello Cristianini", 
+@article{Jia2015,  
+author = "Sen Jia and Nello Cristianini",   
+title = "Learning to classify gender from four million images ",   
+journal = "Pattern Recognition Letters ",  
+volume = "58",  
+number = "0",  
+pages = "35 - 41",  
+year = "2015",  
+issn = "0167-8655",  
+doi = "http://dx.doi.org/10.1016/j.patrec.2015.02.006",  
+}
 
-##### title = "Learning to classify gender from four million images ", 
 
-##### journal = "Pattern Recognition Letters ",
+@INPROCEEDINGS{Jia2016,  
+author={S. {Jia} and T. {Lansdall-Welfare} and N. {Cristianini}},  
+booktitle={2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW)},  
+title={Gender Classification by Deep Learning on Millions of Weakly Labelled Images},  
+year={2016},  
+pages={462-467},  
+doi={10.1109/ICDMW.2016.0072},  
+ISSN={2375-9259},  
+month={Dec}  
+}
 
-##### volume = "58", 
-
-##### number = "0",
-
-##### pages = "35 - 41", 
-
-##### year = "2015", 
-
-##### issn = "0167-8655", 
-
-##### doi = "http://dx.doi.org/10.1016/j.patrec.2015.02.006", 
-
-##### }
-
+There is an extension of this work using convolutional neural networks. Both works used a subset of LFW, 10,147 images, for model evalutaion, here is the link. If our studies are useful to your research, we would appreciate if you could cite our papers.
 
 
 ##Usage:

@@ -37,7 +37,7 @@ month={Dec}
 There is an extension of this work using convolutional neural networks. Both works used a subset of LFW, 10,147 images, for model evalutaion, here is the [link](https://raw.githubusercontent.com/SenJia/C_Pegasos/master/LFW_sublist.txt). If our studies are useful to your research, we would appreciate if you could cite our papers.
 
 
-##Usage:
+## Usage:
 CPegasos classifer has two main functions, train and test, which need an array list of "Sample" as argument. The "Sample" 
 class simply consists of two varibles, an integer for label and a SimpleMatrix for feature vector. For  more details about the
 use of feature vector, please visit the website of ["Efficient Java Matrix Library" (EJML)](https://code.google.com/p/efficient-java-matrix-library/).

@@ -1,7 +1,7 @@
 
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-# C-Pegasos
+# Learning to classify gender from four million images
 
 C-Pegasos is an on-line linear classifier based on the Pegasos algorithm. The key modification of C-Pegasos is that when a
 training point is predicted to have the wrong label with very large margin, it may be considered unreliable and 

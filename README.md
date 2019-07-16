@@ -12,8 +12,8 @@ soft-margin SVM.
 
 @article{Jia2015,  
 author = "Sen Jia and Nello Cristianini",   
-title = "Learning to classify gender from four million images ",   
-journal = "Pattern Recognition Letters ",  
+title = "Learning to classify gender from four million images",   
+journal = "Pattern Recognition Letters",  
 volume = "58",  
 number = "0",  
 pages = "35 - 41",  
